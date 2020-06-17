@@ -3,7 +3,7 @@
 *****
 **Run command:**
 
-$ `ruby test/site_testing/yopmail.rb` running test
+$ `ruby test/smoke/yopmail.rb` running test
 
 *****
 **Recommended:**
