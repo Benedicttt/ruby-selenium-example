@@ -9,3 +9,5 @@ puts "Check login in site " +  ENV['base_url'].colorize(:color => :gray)
 yop_page.auth
 puts "Check in mail page".colorize(:color => :gray)
 yop_page.check_mail
+
+puts "TEST DONE".colorize(:color => :gray)

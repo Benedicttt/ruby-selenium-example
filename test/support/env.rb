@@ -3,9 +3,9 @@ require 'dotenv'
 require 'colorize'
 require 'colorized_string'
 
-Dotenv.load('../../.env')
+Dotenv.load('./.env')
+puts "Get new session".colorize(:color => :blue)
 
 def driver
-  puts "Get new session".colorize(:color => :blue)
-  Driver::Set.get_session
+  Driver::Set.new.get_session
 end

@@ -7,7 +7,7 @@ GEM
     chromedriver-helper (2.1.1)
       archive-zip (~> 0.10)
       nokogiri (~> 1.8)
-    colorized (0.0.0)
+    colorize (0.8.1)
     concurrent-ruby (1.1.6)
     data_magic (1.2)
       faker (>= 1.1.2)
@@ -73,7 +73,7 @@ PLATFORMS
 
 DEPENDENCIES
   chromedriver-helper
-  colorized
+  colorize
   dotenv
   page-object
   rest-client

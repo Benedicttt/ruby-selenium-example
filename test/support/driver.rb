@@ -2,7 +2,7 @@ require 'selenium-webdriver'
 
 module Driver
   class Set
-    def self.get_session
+    def get_session
       options = Selenium::WebDriver::Chrome::Options.new(args: [
         "--no-sandbox",
         "--disable-backing-store-limit",

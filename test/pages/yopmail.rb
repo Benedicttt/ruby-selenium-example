@@ -1,8 +1,9 @@
 require 'page-object'
 require 'rspec'
 
+include RSpec::Matchers
+
 class YopMailLoginPage
-  include RSpec::Matchers
   include PageObject
 
   DEFAULT_DATA = {'email'  => 'test197@yopmail.com', 'button' => 'Проверить почту'}
