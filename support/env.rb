@@ -1,4 +1,4 @@
-require './test/support/driver'
+require './support/driver'
 require 'dotenv'
 require 'colorize'
 require 'colorized_string'

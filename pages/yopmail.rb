@@ -37,7 +37,7 @@ class YopMailLoginPage
     refresh_element.click
 
     puts "Check input email".colorize(:color => :green)
-    expect(login_input).to eq "test197@yopmail.com"
+    expect(login_input).to eq "test197"
   end
 end
 

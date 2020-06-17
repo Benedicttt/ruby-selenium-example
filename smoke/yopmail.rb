@@ -1,5 +1,5 @@
-require "./test/support/env"
-require "./test/pages/yopmail"
+require "./support/env"
+require "./pages/yopmail"
 
 puts "Start test".colorize(:color => :green)
 

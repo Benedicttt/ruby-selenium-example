@@ -5,7 +5,7 @@
 
 $ `bundle install` install gem from Gemfile
 
-$ `ruby test/smoke/yopmail.rb` running test
+$ `ruby smoke/yopmail.rb` running test
 
 *****
 **Recommended:**
